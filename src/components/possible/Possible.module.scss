@@ -1,0 +1,37 @@
+.possible_container {
+  max-width: 90vw;
+  margin: 6.62rem auto;
+  padding: 1.5rem 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 3.5rem;
+
+  .possible_text {
+    width: 50%;
+
+    h2 {
+      color: #000;
+      font-family: 'Neue Montreal', sans-serif;
+      font-size: 3.2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 120%; /* 4.8rem */
+    }
+
+    p {
+      color: #000;
+      font-family: 'Neue Montreal', sans-serif;
+      font-size: 1.35rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin: 1.5rem 0 3.5rem;
+      padding-right: 5rem;
+    }
+  }
+
+  img {
+    width: 50%;
+  }
+}
