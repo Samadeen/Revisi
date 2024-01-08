@@ -1,4 +1,5 @@
 import styles from './Button.module.scss';
+import { motion as m } from 'framer-motion';
 
 interface ButtonProps {
   text: string;
@@ -7,7 +8,10 @@ interface ButtonProps {
 
 const Button = ({ text, color }: ButtonProps) => {
   return (
-    <button
+    <m.button
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 0.65, duration: 1 }}
       className={styles.button}
       style={color === 'wine' ? { color: '#97602b' } : { color: '#fff' }}
     >
@@ -35,7 +39,7 @@ const Button = ({ text, color }: ButtonProps) => {
           strokeLinejoin='round'
         />
       </svg>
-    </button>
+    </m.button>
   );
 };
 
