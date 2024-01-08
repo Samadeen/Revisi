@@ -5,7 +5,7 @@ import kayak from '../../assets/Kayak.svg';
 import pinterest from '../../assets/Pinterest.svg';
 import barclays from '../../assets/Barclays.svg';
 import volvo from '../../assets/Volvo.svg';
-import hsbc from '../../assets/Hsbc.svg';
+import hsbc from '../../assets/HSBC.svg';
 import samsung from '../../assets/Samsung.svg';
 import porsche from '../../assets/Porsche.svg';
 import airbnb from '../../assets/Airbnb.svg';
