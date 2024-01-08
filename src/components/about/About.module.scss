@@ -3,6 +3,11 @@
   align-items: flex-start;
   height: 33.5rem;
 
+  @media (max-width: 898px) {
+    flex-direction: column;
+    height: auto;
+  }
+
   .image {
     position: relative;
     display: flex;
@@ -12,6 +17,10 @@
     width: 50%;
     height: 33.125rem;
     transition: transform 0.9s ease-in-out;
+
+    @media (max-width: 898px) {
+      width: 100%;
+    }
 
     &:before {
       content: '';
@@ -51,6 +60,11 @@
     width: 50%;
     height: 33.125rem;
 
+    @media (max-width: 898px) {
+      width: 100%;
+      padding: 1.5rem;
+    }
+
     p {
       color: #faf5e8;
       font-family: 'Neue Montreal', sans-serif;
@@ -74,11 +88,20 @@
       transition: all 0.5s ease-in-out;
       cursor: pointer;
 
+      @media (max-width: 898px) {
+        font-size: 3rem;
+      }
+
       img {
         width: 5.28475rem;
         height: 5.28475rem;
         flex-shrink: 0;
         transition: all 0.5s ease-in-out;
+
+        @media (max-width: 898px) {
+          width: 3.5rem;
+          height: 3.5rem;
+        }
       }
 
       &:hover {
