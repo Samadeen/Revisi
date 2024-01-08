@@ -1,7 +1,7 @@
 import Button from '../button/Button';
 import styles from './Clients.module.scss';
 import tiktok from '../../assets/TikTok.svg';
-import kayak from '../../assets/Kayak.svg';
+import kayak from '../../assets/Kayak svg.svg';
 import pinterest from '../../assets/Pinterest.svg';
 import barclays from '../../assets/Barclays.svg';
 import volvo from '../../assets/Volvo.svg';
